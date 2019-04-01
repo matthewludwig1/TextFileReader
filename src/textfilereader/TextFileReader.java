@@ -29,10 +29,10 @@ public class TextFileReader {
             }
           }
         catch (FileNotFoundException excp) { 
-            System.out.println(excp + "\n" + "Enter a new file");
+            System.out.println(excp + "\n" + "Restart Program");
         }
         catch (NullPointerException x) {  // exit key
-            System.out.println(x + " Program terminated.");
+            System.out.println(x + " Program terminated");
         }
         
     
